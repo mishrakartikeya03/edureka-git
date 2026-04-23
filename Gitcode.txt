@@ -1,0 +1,65 @@
+1) Create a file with name akshat.txt 
+with content hi i am akshat
+
+
+2) git init   #initialize the git 
+
+3) git status   
+
+4) git add .  # add this file akshat.txt in the staging area 
+
+5) git status #you will see akshat.txt is in green color which means it is in staging area
+
+6) git rm --cached akshat.txt   #put back the file from the staging area to the WD again 
+
+7) git status   #you will see that akshat.txt is in red color which means in the WD
+
+8) git add .   # again adding the file akshat.txt to the staging area 
+
+9)  Make some change in the content of akshat.txt file. lets say add a new line i am teaching
+
+git diff akshat.txt  #you will see the line which is updated 
+
+10) git add . 
+
+11) git config --global user.name "akshatgupta07"
+
+12) git config --global user.email "akshu20791@gmail.com"
+
+13) git config --list | grep user.name
+
+14) git config --list | grep user.email 
+
+#grep command is used to search the matching pattern ...like ctrl f in ms word
+
+15) git commit -m"created akshat.txt file"  ## save the file as version 
+
+16) git log   #show all the commits
+
+17) git log --oneline #show commits in one line
+
+18) create a account on github and create a repo on github.com
+
+19) git remote add origin <<repo link>>
+
+20) git push -u origin master 
+
+It will ask for authentication
+
+go to github.com (login) and in new tab open https://github.com/settings/tokens -> generate token 
+
+copy paste the token
+
+you will see the github repo updated 
+
+
+
+
+
+
+
+
+
+
+
+
